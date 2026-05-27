@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    background-color: #333;
+    background-image: url('bilder/mellobakgrund.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.header button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bidraggrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.kort {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.kort img {
+    width: 100%;
+}
